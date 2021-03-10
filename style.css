@@ -10,7 +10,7 @@
 	animation-play-state: running;
 }
 .navbar{
-	position: static;
+	position: relative;
 	height: 80px;
 	width: 100%;
 	top: 0;
