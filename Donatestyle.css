@@ -5,12 +5,7 @@
 }
 
   
-.wrapper{
-	background: url(bgimages/donatebg.jpg) no-repeat;
-	background-size: cover;
-	height: 100vh;
-	size: 100%;
-}
+
 .navbar{
 	position: relative;
 	height: 80px;
