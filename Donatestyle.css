@@ -5,7 +5,7 @@
 }
 
 .wrapper{
-
+	background: url(bgimages/donatebg.jpg) no-repeat;
 	background-size: cover;
 	height: 100vh;
 	padding: 0;
