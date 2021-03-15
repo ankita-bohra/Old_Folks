@@ -3,15 +3,16 @@
 	padding: 0;
 	margin: 0;
 	
-	background: url(bgimages/donatebg.jpg) no-repeat;
+	background-image: url(bgimages/donatebg.jpg);
+
 }
 .wrapper{
-	
+	background-image: url(bgimages/donatebg.jpg);
 	background-size: cover;
 	height: 100vh;
 }
 .navbar{
-	position: fixed;
+	position: relative;
 	height: 80px;
 	width: 100%;
 	top: 0;
