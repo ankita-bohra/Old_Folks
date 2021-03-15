@@ -14,8 +14,7 @@
 	position: fixed;
 	height: 80px;
 	width: 100%;
-	top: 0;
-	left: 0;
+	
 	background: rgba(135, 200, 209, 0.4);
 }
 .navbar .logo{
@@ -56,15 +55,15 @@
 }
 .center h1{
 	color: #6e1414;
-	font-size: 27px;
-	font-family:"sans-serif";
+	font-size: 30px;
+	font-family: monospace;
 	text-transform: uppercase;
-	width: 900px;
+	width: 200px;
 	font-weight: bold;
 	text-align: center;
 }
 .center .buttons{
-	margin: 35px 280px;
+	margin: 40px 300px;
 }
 .buttons button{
 	height: 50px;
