@@ -3,22 +3,19 @@
 	padding: 0;
 	margin: 0;
 	
-}
-body{
-	
-	background-image: url(bgimages/donatebg.jpg);
+	background: url(bgimages/donatebg.jpg) no-repeat;
 }
 .wrapper{
-	background: url(bgimages/donatebg.jpg) no-repeat;
+	
 	background-size: cover;
 	height: 100vh;
 }
-  
 .navbar{
 	position: fixed;
 	height: 80px;
 	width: 100%;
-	
+	top: 0;
+	left: 0;
 	background: rgba(135, 200, 209, 0.4);
 }
 .navbar .logo{
@@ -46,7 +43,7 @@ body{
 }
 .navbar ul li a.active,
 .navbar ul li a:hover{
-	background: rgb(63, 31, 31);
+	background: #522626;
 	border-radius: 2px;
 }
 .wrapper .center{
@@ -58,16 +55,16 @@ body{
 	user-select: none;
 }
 .center h1{
-	color: #6e1414;
-	font-size: 30px;
-	font-family: monospace;
+	color: #8B0000;
+	font-size: 27px;
+	font-family:"sans-serif";
 	text-transform: uppercase;
-	width: 500px;
+	width: 900px;
 	font-weight: bold;
 	text-align: center;
 }
 .center .buttons{
-	margin: 40px 300px;
+	margin: 35px 280px;
 }
 .buttons button{
 	height: 50px;
@@ -75,7 +72,7 @@ body{
 	font-size: 18px;
 	font-weight: 600;
 	color: #ffb3b3;
-	background: red;
+	background: rgb(53, 30, 30);
 	outline: none;
 	cursor: pointer;
 	border: 1px solid #cc0000;
@@ -86,6 +83,5 @@ body{
 	margin-left: 25px;
 }
 .buttons button:hover{
-	background: #522626;
+	background: #37969c;
 }
-
