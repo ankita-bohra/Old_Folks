@@ -4,10 +4,15 @@
 	margin: 0;
 }
 
+.wrapper{
+	background: url(bgimages/donatebg.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
   
 
 .navbar{
-	position: relative;
+	position: fixed;
 	height: 80px;
 	width: 100%;
 	top: 0;
@@ -51,16 +56,13 @@
 	user-select: none;
 }
 .center h1{
-	color: #f8f4f4;
-	font-size: 45px;
+	color: #6e1414;
+	font-size: 27px;
 	font-family:"sans-serif";
 	text-transform: uppercase;
 	width: 900px;
 	font-weight: bold;
 	text-align: center;
-	margin: -5%;
-	margin-top: -20%;
-	margin-left: 25%;
 }
 .center .buttons{
 	margin: 35px 280px;
@@ -85,10 +87,3 @@
 	background: #522626;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    background: url(bgimages/donatebg.jpg) no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
