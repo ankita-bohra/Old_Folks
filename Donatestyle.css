@@ -3,11 +3,9 @@
 	padding: 0;
 	margin: 0;
 	
-	background-image: url(bgimages/donatebg.jpg);
 
 }
 .wrapper{
-	background-image: url(bgimages/donatebg.jpg);
 	background-size: cover;
 	height: 100vh;
 }
@@ -67,16 +65,16 @@
 .center .buttons{
 	margin: 35px 280px;
 }
-.buttons button{
-	height: 50px;
-	width: 150px;
+.buttons .button{
+	height: 80px;
+	width: 300px;
 	font-size: 18px;
 	font-weight: 600;
 	color: #ffb3b3;
 	background: rgb(53, 30, 30);
-	outline: none;
+	outline: #522626;
 	cursor: pointer;
-	border: 1px solid #cc0000;
+	border: 2px solid #cc0000;
 	border-radius: 25px;
 	transition: .4s;
 }
